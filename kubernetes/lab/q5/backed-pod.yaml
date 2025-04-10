@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend
+  labels:
+    app: backend
+spec:
+  containers:
+  - name: backend-container
+    image: hashicorp/http-echo:latest
+    args:
+    - "-text=Hello World from Backend Pod"
+    ports:
+    - containerPort: 5678
