@@ -124,4 +124,3 @@ This is a Kubernetes `Service` definition. A service is an abstraction that prov
 #### Practical Use:
 - In a real application, the `frontend` might be a web app, and the `backend` might be a database or API. The service ensures they can reliably communicate, even as pods scale or fail.
 
-Let me know if you’d like more details or help applying this to a specific scenario!

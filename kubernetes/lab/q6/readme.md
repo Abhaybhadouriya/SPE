@@ -206,4 +206,3 @@ To confirm this works:
      ```
    - Expect Nginx’s default welcome page.
 
-Let me know if you’d like help testing this or expanding the setup (e.g., exposing it externally)!

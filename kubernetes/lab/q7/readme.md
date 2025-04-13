@@ -239,9 +239,3 @@ You previously asked about verifying if a `frontend` pod can communicate with a 
 - **Port Conflict**:
   - `nodePort: 30008` must be in the valid range (30000–32767, unless customized). If taken, Kubernetes will assign a random port—check with `kubectl get svc`.
 
----
-
-Let me know if you want to:
-- Deploy the `frontend` pod to test `nginx-nodeport`.
-- Try `LoadBalancer` or `Ingress` instead of `NodePort`.
-- Debug any issues or compare with `nginx-clusterip`!

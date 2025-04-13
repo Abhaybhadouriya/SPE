@@ -153,7 +153,3 @@ For now, `demo-namespace` is empty, so there’s no frontend/backend to verify u
 
 ---
 
-Let me know if you want to:
-- Deploy something specific in `demo-namespace` (e.g., replicate the Nginx setup).
-- Test cross-namespace communication (e.g., `demo-namespace` to `demo-environment`).
-- Troubleshoot any issues with this command!

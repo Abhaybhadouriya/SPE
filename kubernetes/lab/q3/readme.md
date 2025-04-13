@@ -232,9 +232,3 @@ You previously asked about verifying the `frontend` pod’s communication with t
   - Simpler than the frontend/backend setup (no client pod included).
   - Similar to `demo-environment` Nginx but in a new namespace (or `default`) with fewer replicas.
 
----
-
-Let me know if you want to:
-- Apply these in `demo-namespace` and test them.
-- Add a `frontend` pod to mimic your earlier setup.
-- Troubleshoot any issues or explore external access (e.g., `LoadBalancer`)!
