@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: example-limit-range
+  namespace: dev-environment
+spec:
+  limits:
+  - type: Container
+    max:
+      cpu: "2"           # Maximum CPU allowed per container
+      memory: 4Gi        # Maximum memory allowed per container
+    min:
+      cpu: "100m"        # Minimum CPU required per container
+      memory: 100Mi      # Minimum memory required per container
+    default:
+      cpu: "500m"        # Default CPU limit applied to containers
+      memory: 256Mi      # Default memory limit applied to containers
+    defaultRequest:
+      cpu: "200m"        # Default CPU request applied to containers
+      memory: 128Mi      # Default memory request applied to containers

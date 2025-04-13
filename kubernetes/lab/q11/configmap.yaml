@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index
+  namespace: dev-environment
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Welcome</title>
+    </head>
+    <body>
+      <h1>SPM -Kubernetes Session!  updated</h1>
+    </body>
+    </html>
